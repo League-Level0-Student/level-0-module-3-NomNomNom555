@@ -18,11 +18,13 @@ public class CrazyCatLady {
 			JOptionPane.showMessageDialog(null, "You're a crazy cat lady!");
 		}
 		// 4. If they have 3 or less, call the method below to show them a cat video
-		else if(owner<3) {
-			JOptionPane
+		else if(owner<=3 && owner>0) {
+			playVideo("https://www.youtube.com/watch?v=J---aiyznGQ");
 		}
 		// 5. If they say 0, show them a video of A Frog Sitting on a Bench Like a Human
-		
+		else if(owner==0) {
+			playVideo("https://www.youtube.com/watch?v=W_juM14WHNQ");
+		}
 	}
 
 	static void playVideo(String videoURL) {

@@ -46,7 +46,6 @@ public class RobotColorChooser {
 			r2d2.setSpeed(50);
 			r2d2.penDown();
 			r2d2.turn(270);
-			;
 			r2d2.move(150);
 			r2d2.turn(90);
 			r2d2.move(300);
